@@ -274,7 +274,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:USB3_B_Micro"
+		(symbol "Connector:USB_B_Micro"
 			(pin_names
 				(offset 1.016)
 			)
@@ -284,7 +284,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
-				(at -10.16 15.24 0)
+				(at -5.08 11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -294,19 +294,19 @@
 					(justify left)
 				)
 			)
-			(property "Value" "USB3_B_Micro"
-				(at 10.16 15.24 0)
+			(property "Value" "USB_B_Micro"
+				(at -5.08 8.89 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
-				(at 3.81 3.81 0)
+				(at 3.81 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -317,7 +317,7 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at 3.81 5.08 0)
+				(at 3.81 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -327,7 +327,7 @@
 					)
 				)
 			)
-			(property "Description" "USB 3.0 Micro-B connector"
+			(property "Description" "USB Micro Type B connector"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -338,7 +338,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "usb universal serial bus"
+			(property "ki_keywords" "connector USB micro"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -349,122 +349,21 @@
 					)
 				)
 			)
-			(symbol "USB3_B_Micro_0_0"
-				(rectangle
-					(start -2.794 -15.24)
-					(end -2.286 -14.224)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -0.254 -15.24)
-					(end 0.254 -14.224)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 10.414)
-					(end 9.144 9.906)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 5.334)
-					(end 9.144 4.826)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 2.794)
-					(end 9.144 2.286)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 0.254)
-					(end 9.144 -0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -2.286)
-					(end 9.144 -2.794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -4.826)
-					(end 9.144 -5.334)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -9.906)
-					(end 9.144 -10.414)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -12.446)
-					(end 9.144 -12.954)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
+			(property "ki_fp_filters" "USB*Micro*B*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 				)
 			)
-			(symbol "USB3_B_Micro_0_1"
+			(symbol "USB_B_Micro_0_1"
 				(rectangle
-					(start -10.16 13.97)
-					(end 10.16 -15.24)
+					(start -5.08 -7.62)
+					(end 5.08 7.62)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -475,20 +374,21 @@
 				)
 				(polyline
 					(pts
-						(xy -7.874 7.366) (xy -7.874 -2.794) (xy -5.334 -2.794) (xy -5.334 2.286) (xy -6.604 2.286) (xy -6.604 3.556)
-						(xy -5.334 3.556) (xy -5.334 7.366) (xy -7.874 7.366)
+						(xy -4.699 5.842) (xy -4.699 5.588) (xy -4.445 4.826) (xy -4.445 4.572) (xy -1.651 4.572) (xy -1.651 4.826)
+						(xy -1.397 5.588) (xy -1.397 5.842) (xy -4.699 5.842)
 					)
 					(stroke
-						(width 0.508)
+						(width 0)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(rectangle
-					(start -7.112 6.604)
-					(end -6.096 4.318)
+				(polyline
+					(pts
+						(xy -4.318 5.588) (xy -1.778 5.588) (xy -2.032 4.826) (xy -4.064 4.826) (xy -4.318 5.588)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -497,21 +397,8 @@
 						(type outline)
 					)
 				)
-				(rectangle
-					(start -7.112 1.524)
-					(end -6.096 -2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "USB3_B_Micro_1_1"
 				(circle
-					(center -2.54 1.143)
+					(center -3.81 2.159)
 					(radius 0.635)
 					(stroke
 						(width 0.254)
@@ -523,22 +410,22 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 4.318) (xy 0 6.858) (xy 1.27 4.318) (xy -1.27 4.318)
+						(xy -3.175 2.159) (xy -2.54 2.159) (xy -1.27 3.429) (xy -0.635 3.429)
 					)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(polyline
 					(pts
-						(xy 0 -2.032) (xy 2.54 0.508) (xy 2.54 1.778)
+						(xy -2.54 2.159) (xy -1.905 2.159) (xy -1.27 0.889) (xy 0 0.889)
 					)
 					(stroke
-						(width 0.508)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -547,22 +434,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -3.302) (xy -2.54 -0.762) (xy -2.54 0.508)
+						(xy -1.905 2.159) (xy 0.635 2.159)
 					)
 					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -5.842) (xy 0 4.318)
-					)
-					(stroke
-						(width 0.508)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -570,19 +445,8 @@
 					)
 				)
 				(circle
-					(center 0 -5.842)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 1.905 1.778)
-					(end 3.175 3.048)
+					(center -0.635 3.429)
+					(radius 0.381)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -591,8 +455,88 @@
 						(type outline)
 					)
 				)
+				(rectangle
+					(start -0.127 -7.62)
+					(end 0.127 -6.858)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.254 1.27)
+					(end -0.508 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 2.794) (xy 0.635 1.524) (xy 1.905 2.159) (xy 0.635 2.794)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 5.08 4.953)
+					(end 4.318 5.207)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 -0.127)
+					(end 4.318 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 -2.667)
+					(end 4.318 -2.413)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 -5.207)
+					(end 4.318 -4.953)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "USB_B_Micro_1_1"
 				(pin power_out line
-					(at 12.7 10.16 180)
+					(at 7.62 5.08 180)
 					(length 2.54)
 					(name "VBUS"
 						(effects
@@ -610,7 +554,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 12.7 5.08 180)
+					(at 7.62 -2.54 180)
 					(length 2.54)
 					(name "D-"
 						(effects
@@ -628,7 +572,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 12.7 2.54 180)
+					(at 7.62 0 180)
 					(length 2.54)
 					(name "D+"
 						(effects
@@ -646,7 +590,7 @@
 					)
 				)
 				(pin passive line
-					(at 12.7 0 180)
+					(at 7.62 -5.08 180)
 					(length 2.54)
 					(name "ID"
 						(effects
@@ -664,7 +608,7 @@
 					)
 				)
 				(pin power_out line
-					(at 0 -17.78 90)
+					(at 0 -10.16 90)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -681,100 +625,10 @@
 						)
 					)
 				)
-				(pin output line
-					(at 12.7 -2.54 180)
-					(length 2.54)
-					(name "SSTX-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 12.7 -5.08 180)
-					(length 2.54)
-					(name "SSTX+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin passive line
-					(at -2.54 -17.78 90)
+					(at -2.54 -10.16 90)
 					(length 2.54)
-					(name "DRAIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 12.7 -10.16 180)
-					(length 2.54)
-					(name "SSRX-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 12.7 -12.7 180)
-					(length 2.54)
-					(name "SSRX+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -17.78 90)
-					(length 2.54)
-					(name "SHIELD"
+					(name "Shield"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2822,6 +2676,105 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Regulator_Linear:AMS1117-3.3"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3698,6 +3651,28 @@
 		)
 		(uuid "b832fd69-b09d-414c-8cbd-0361e58ad24b")
 	)
+	(rectangle
+		(start 43.18 88.9)
+		(end 78.74 114.3)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "ff520235-8657-4556-ac31-1457a4b8c487")
+	)
+	(text "mounting holes\n"
+		(exclude_from_sim no)
+		(at 57.658 85.598 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "076fe50b-9a55-4698-8836-6829fcc82d5e")
+	)
 	(text "Microcontroller(and USB)"
 		(exclude_from_sim no)
 		(at 133.096 15.748 0)
@@ -3769,6 +3744,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3bcc267a-ff9c-43a4-8526-d02038e3b612")
+	)
+	(junction
+		(at 130.81 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3dfd248d-1d6b-4457-b9fb-c2abae2987d8")
 	)
 	(junction
 		(at 146.05 80.01)
@@ -3867,6 +3848,12 @@
 		(uuid "b895bafc-e390-4187-9552-53cf7b6c17b4")
 	)
 	(junction
+		(at 137.16 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c12da237-8645-4b1d-b2bf-e32fbacd7fed")
+	)
+	(junction
 		(at 119.38 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3885,12 +3872,6 @@
 		(uuid "ca3b6854-843d-4605-8c70-4b3253ffdce0")
 	)
 	(junction
-		(at 124.46 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cb191673-2550-494d-9c64-9670cc8007ee")
-	)
-	(junction
 		(at 205.74 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3907,10 +3888,6 @@
 		(uuid "0213355c-3eb4-4a57-b6fa-38216575b833")
 	)
 	(no_connect
-		(at 233.68 71.12)
-		(uuid "16b5432e-94f9-4468-9eb2-34ba761241b8")
-	)
-	(no_connect
 		(at 160.02 97.79)
 		(uuid "18a1f607-4866-4fe4-b0ce-7b9fe938b73a")
 	)
@@ -3919,20 +3896,12 @@
 		(uuid "1f2d1ad0-0de2-4f92-a9a7-ce546987f718")
 	)
 	(no_connect
-		(at 233.68 83.82)
-		(uuid "2088fb6e-3e8b-4a0f-858a-e93f0ff3394a")
-	)
-	(no_connect
 		(at 160.02 107.95)
 		(uuid "2954aa3e-416b-4c2d-a0d3-66e2ea2ac6a6")
 	)
 	(no_connect
 		(at 195.58 64.77)
 		(uuid "2c84e76a-c2c6-474b-949e-dc64c11346e3")
-	)
-	(no_connect
-		(at 233.68 73.66)
-		(uuid "2d6012b2-b78f-41c2-9609-81d7f1969dc0")
 	)
 	(no_connect
 		(at 160.02 110.49)
@@ -3945,6 +3914,10 @@
 	(no_connect
 		(at 160.02 82.55)
 		(uuid "40975f0f-ea02-4f0f-b08c-3c52ac6327e4")
+	)
+	(no_connect
+		(at 247.65 95.25)
+		(uuid "42036148-ce90-4090-a08e-bd188b294435")
 	)
 	(no_connect
 		(at 195.58 54.61)
@@ -4011,12 +3984,8 @@
 		(uuid "a15be731-7157-41cf-ad6f-e87834f45c0d")
 	)
 	(no_connect
-		(at 251.46 66.04)
-		(uuid "a4d4be37-3f6e-4fd2-8b38-d795a58c444f")
-	)
-	(no_connect
-		(at 248.92 66.04)
-		(uuid "b7ae63d0-3970-46e5-b081-aa717d829ddf")
+		(at 237.49 90.17)
+		(uuid "d05ac90e-fda7-430e-961c-52437e1c0141")
 	)
 	(no_connect
 		(at 160.02 80.01)
@@ -4027,16 +3996,18 @@
 		(uuid "e3d919d1-5815-4674-993a-4f076b63d064")
 	)
 	(no_connect
-		(at 233.68 78.74)
-		(uuid "ea9f4094-3e35-43ba-bea1-685a4ebb01b0")
-	)
-	(no_connect
 		(at 195.58 49.53)
 		(uuid "f1ba997c-3be4-4728-ad79-0a41179395c1")
 	)
-	(no_connect
-		(at 233.68 81.28)
-		(uuid "fc20765d-79a3-4b09-9e3f-438baecfcf3e")
+	(wire
+		(pts
+			(xy 237.49 86.36) (xy 237.49 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00fe0b1a-c345-4912-9a8f-0edf5379c094")
 	)
 	(wire
 		(pts
@@ -4047,26 +4018,6 @@
 			(type default)
 		)
 		(uuid "0288dbcf-ed95-4b4f-a29f-d4ebbb08d369")
-	)
-	(wire
-		(pts
-			(xy 134.62 53.34) (xy 134.62 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02b15dfa-3c19-4a6d-99c5-5b02c36e1f03")
-	)
-	(wire
-		(pts
-			(xy 246.38 62.23) (xy 246.38 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03bde851-c5ae-4b9d-954a-f59bfc3b7b25")
 	)
 	(wire
 		(pts
@@ -4137,16 +4088,6 @@
 			(type default)
 		)
 		(uuid "1ad22fc3-014e-4104-8d55-da813ab807a6")
-	)
-	(wire
-		(pts
-			(xy 124.46 85.09) (xy 124.46 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c01dc2c-9956-4ea0-996b-9ad96143b848")
 	)
 	(wire
 		(pts
@@ -4320,6 +4261,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 95.25) (xy 245.11 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45df8832-b32a-4075-a76a-e0fdbd2717f7")
+	)
+	(wire
+		(pts
 			(xy 44.45 43.18) (xy 44.45 44.45)
 		)
 		(stroke
@@ -4370,7 +4321,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 57.15) (xy 137.16 60.96)
+			(xy 137.16 58.42) (xy 137.16 60.96)
 		)
 		(stroke
 			(width 0)
@@ -4490,7 +4441,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 86.36) (xy 233.68 86.36)
+			(xy 232.41 86.36) (xy 237.49 86.36)
 		)
 		(stroke
 			(width 0)
@@ -4520,7 +4471,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 80.01) (xy 129.54 80.01)
+			(xy 119.38 80.01) (xy 129.54 80.01)
 		)
 		(stroke
 			(width 0)
@@ -4637,6 +4588,16 @@
 			(type default)
 		)
 		(uuid "78d8e1e9-4a1e-4ae4-8b6f-b20fb7464fb4")
+	)
+	(wire
+		(pts
+			(xy 237.49 88.9) (xy 237.49 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e3ef502-96db-4287-91a0-f2193bdc9167")
 	)
 	(wire
 		(pts
@@ -4770,6 +4731,26 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 85.09) (xy 133.35 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c810761-3482-4850-b120-34fecd09bb57")
+	)
+	(wire
+		(pts
+			(xy 137.16 60.96) (xy 160.02 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3ad2519-f5ea-404d-9834-7e9acef77ad4")
+	)
+	(wire
+		(pts
 			(xy 209.55 83.82) (xy 209.55 85.09)
 		)
 		(stroke
@@ -4780,13 +4761,23 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 88.9) (xy 233.68 88.9)
+			(xy 229.87 88.9) (xy 237.49 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a7bd9ff0-2081-4b36-8e80-1845c3b2cbca")
+	)
+	(wire
+		(pts
+			(xy 233.68 80.01) (xy 237.49 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a94e4ee9-ef13-42d5-9c0f-19ef73d6e5be")
 	)
 	(wire
 		(pts
@@ -4870,7 +4861,17 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 59.69) (xy 160.02 59.69)
+			(xy 233.68 93.98) (xy 233.68 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9e2f429-3678-4428-97a9-2523a5105dc2")
+	)
+	(wire
+		(pts
+			(xy 119.38 60.96) (xy 130.81 60.96)
 		)
 		(stroke
 			(width 0)
@@ -4930,16 +4931,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 85.09) (xy 124.46 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1ab19d9-a327-4aef-bb4e-5278d6b48a7c")
-	)
-	(wire
-		(pts
 			(xy 101.6 111.76) (xy 101.6 119.38)
 		)
 		(stroke
@@ -4957,16 +4948,6 @@
 			(type default)
 		)
 		(uuid "c4afe66b-b652-46f0-ae54-7bc84e9f0a9b")
-	)
-	(wire
-		(pts
-			(xy 119.38 80.01) (xy 124.46 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6e16500-3c3a-4722-822a-976a59f66f94")
 	)
 	(wire
 		(pts
@@ -5010,7 +4991,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 52.07) (xy 137.16 52.07)
+			(xy 134.62 53.34) (xy 137.16 53.34)
 		)
 		(stroke
 			(width 0)
@@ -5090,13 +5071,23 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 54.61) (xy 148.59 54.61)
+			(xy 147.32 55.88) (xy 148.59 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "dca484ee-5d2f-4196-9523-fd138e17a478")
+	)
+	(wire
+		(pts
+			(xy 130.81 60.96) (xy 137.16 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dddf9315-c8a5-457a-ac25-de5001be341f")
 	)
 	(wire
 		(pts
@@ -5160,6 +5151,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 60.96) (xy 160.02 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4f7d749-1dc0-4d10-bb5f-64e3f3c6d85a")
+	)
+	(wire
+		(pts
 			(xy 251.46 31.75) (xy 251.46 29.21)
 		)
 		(stroke
@@ -5167,6 +5168,16 @@
 			(type default)
 		)
 		(uuid "e5607cfa-a8e0-4890-b52b-170b2e39d04d")
+	)
+	(wire
+		(pts
+			(xy 148.59 55.88) (xy 148.59 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7b2ab38-7487-4a8b-886e-0a404008c4a4")
 	)
 	(wire
 		(pts
@@ -5300,7 +5311,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 80.01) (xy 119.38 59.69)
+			(xy 119.38 80.01) (xy 119.38 60.96)
 		)
 		(stroke
 			(width 0)
@@ -5389,7 +5400,7 @@
 		(uuid "460ef4eb-41de-42d3-a208-152273603caf")
 	)
 	(label "hse in"
-		(at 153.67 59.69 0)
+		(at 153.67 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5448,10 +5459,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "103f0028-4c68-44fa-afac-4c07202a05a7")
 		(property "Reference" "R1"
-			(at 152.4 48.26 90)
+			(at 152.4 51.816 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5461,7 +5471,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 152.4 50.8 90)
+			(at 152.146 57.15 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5513,115 +5523,6 @@
 			(project "pcb"
 				(path "/bde2d3e9-ecc9-4446-a501-984f80919cb6"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:USB3_B_Micro")
-		(at 246.38 83.82 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "161a2d6a-1fa9-4678-88ca-6da3a0b12473")
-		(property "Reference" "J1"
-			(at 257.81 81.9149 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "USB3_B_Micro"
-			(at 257.81 84.4549 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:WDFN-10-1EP_3x3mm_P0.5mm_EP1.8x2.5mm"
-			(at 242.57 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 242.57 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "USB 3.0 Micro-B connector"
-			(at 246.38 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "6"
-			(uuid "e9275726-00ca-4cdc-a0d9-6c73d90546d0")
-		)
-		(pin "7"
-			(uuid "0d3f754c-4fcb-4d65-8c5d-13a3ab1b9137")
-		)
-		(pin "1"
-			(uuid "b5d30e9d-af72-464f-b2b1-7ceb34ac0823")
-		)
-		(pin "3"
-			(uuid "028579d6-9f4d-4731-857b-7934b72739d4")
-		)
-		(pin "9"
-			(uuid "8ed19691-e271-4845-93ef-4c9dc974dd2c")
-		)
-		(pin "SH"
-			(uuid "0b9f2501-c782-4b23-abd0-b374c726c2e5")
-		)
-		(pin "10"
-			(uuid "4742498e-939c-43dc-af77-108a4c8f59c1")
-		)
-		(pin "5"
-			(uuid "ff0aa71d-7fcf-41ad-a01b-c7a79579e1c6")
-		)
-		(pin "8"
-			(uuid "b39145ff-d964-4358-b9f5-6d9c136fb78b")
-		)
-		(pin "4"
-			(uuid "55fc0b0e-6b57-44b0-ad5c-47e40f8ad15f")
-		)
-		(pin "2"
-			(uuid "6980913d-fe65-4b86-bf18-798106363278")
-		)
-		(instances
-			(project "pcb"
-				(path "/bde2d3e9-ecc9-4446-a501-984f80919cb6"
-					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -6030,6 +5931,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 52.07 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35df33ff-c808-4082-ae1b-2b46dc6f1a21")
+		(property "Reference" "H3"
+			(at 54.61 101.5999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 54.61 104.1399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+			(at 52.07 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 52.07 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "pcb"
+				(path "/bde2d3e9-ecc9-4446-a501-984f80919cb6"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 259.08 41.91 0)
 		(unit 1)
@@ -6343,7 +6320,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPDT")
-		(at 142.24 54.61 0)
+		(at 142.24 55.88 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -6354,7 +6331,7 @@
 		(dnp no)
 		(uuid "494fa586-70e5-4563-8f83-cce831e4bda2")
 		(property "Reference" "SW1"
-			(at 142.24 45.72 0)
+			(at 142.24 51.054 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6364,7 +6341,7 @@
 			)
 		)
 		(property "Value" "SW_SPDT"
-			(at 143.51 61.976 0)
+			(at 144.272 59.944 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6374,7 +6351,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm"
-			(at 142.24 54.61 0)
+			(at 142.24 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6385,7 +6362,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 62.23 0)
+			(at 142.24 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6396,7 +6373,7 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
-			(at 142.24 54.61 0)
+			(at 142.24 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6497,6 +6474,82 @@
 			(project "pcb"
 				(path "/bde2d3e9-ecc9-4446-a501-984f80919cb6"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 52.07 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5606ae73-2733-458e-acdf-764e611a8d03")
+		(property "Reference" "H1"
+			(at 54.61 90.1699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 54.61 92.7099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+			(at 52.07 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 52.07 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "pcb"
+				(path "/bde2d3e9-ecc9-4446-a501-984f80919cb6"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -6734,6 +6787,84 @@
 			(project "pcb"
 				(path "/bde2d3e9-ecc9-4446-a501-984f80919cb6"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 133.35 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6413848e-6ae1-4362-9b6b-573eec346c34")
+		(property "Reference" "#PWR024"
+			(at 133.35 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 133.35 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 133.35 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3d803d4d-ba1b-4aaf-8f81-a182bdd6860a")
+		)
+		(instances
+			(project "pcb"
+				(path "/bde2d3e9-ecc9-4446-a501-984f80919cb6"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -7225,7 +7356,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 246.38 62.23 180)
+		(at 245.11 105.41 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7236,7 +7368,7 @@
 		(fields_autoplaced yes)
 		(uuid "8647736b-138c-4fc7-b2ce-341fe3bdd936")
 		(property "Reference" "#PWR012"
-			(at 246.38 55.88 0)
+			(at 245.11 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7247,7 +7379,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 246.38 57.15 0)
+			(at 245.11 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7257,7 +7389,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 246.38 62.23 0)
+			(at 245.11 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7268,7 +7400,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 246.38 62.23 0)
+			(at 245.11 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7279,7 +7411,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 246.38 62.23 0)
+			(at 245.11 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7971,6 +8103,98 @@
 			(project "pcb"
 				(path "/bde2d3e9-ecc9-4446-a501-984f80919cb6"
 					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:USB_B_Micro")
+		(at 245.11 85.09 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a49431ba-2b88-40c1-a8ed-416f0687dbe7")
+		(property "Reference" "J5"
+			(at 245.11 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB_B_Micro"
+			(at 245.11 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:WDFN-10-1EP_3x3mm_P0.5mm_EP1.8x2.5mm"
+			(at 241.3 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "USB Micro Type B connector"
+			(at 245.11 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "fb32fb94-2a54-4101-ab0f-02e6d48107b4")
+		)
+		(pin "SH"
+			(uuid "bf1d4f5b-cbe6-4114-b729-9552a99b8a76")
+		)
+		(pin "4"
+			(uuid "0cf1baf2-e4d7-4e35-a48a-89e2aa3ef1ec")
+		)
+		(pin "5"
+			(uuid "d1a7e894-384b-4ef8-8981-ff9ac946b515")
+		)
+		(pin "2"
+			(uuid "d13e5041-de77-4d8a-80b3-bfbb83bf5bf5")
+		)
+		(pin "1"
+			(uuid "a3301dc3-191e-453d-897a-8d28d9948a04")
+		)
+		(instances
+			(project "pcb"
+				(path "/bde2d3e9-ecc9-4446-a501-984f80919cb6"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -8862,7 +9086,7 @@
 		(dnp no)
 		(uuid "cbe819bc-7819-47d2-9705-b82751771f3d")
 		(property "Reference" "C13"
-			(at 71.12 44.4499 0)
+			(at 70.612 45.212 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8873,7 +9097,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 71.12 46.9899 90)
+			(at 71.12 50.8 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9248,6 +9472,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 52.07 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8a1e89f-59a4-4f32-a81b-b516c47b898c")
+		(property "Reference" "H4"
+			(at 54.61 106.6799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 54.61 109.2199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+			(at 52.07 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 52.07 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "pcb"
+				(path "/bde2d3e9-ecc9-4446-a501-984f80919cb6"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 118.11 105.41 0)
 		(unit 1)
@@ -9398,6 +9698,82 @@
 			(project "pcb"
 				(path "/bde2d3e9-ecc9-4446-a501-984f80919cb6"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 52.07 97.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5aa5bad-3e66-4397-a559-2f559090c224")
+		(property "Reference" "H2"
+			(at 54.61 96.5199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 54.61 99.0599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+			(at 52.07 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 52.07 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "pcb"
+				(path "/bde2d3e9-ecc9-4446-a501-984f80919cb6"
+					(reference "H2")
 					(unit 1)
 				)
 			)
