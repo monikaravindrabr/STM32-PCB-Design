@@ -1,15 +1,35 @@
-KiCad Local History Directory
-=============================
+# STM32 Microcontroller PCB Design
 
-This directory contains automatic snapshots of your project files.
-KiCad periodically saves copies of your work here, allowing you to
-recover from accidental changes or data loss.
+## Overview
+Designed a custom two-layer PCB for an STM32 microcontroller using KiCad. This project focuses on schematic design, PCB layout, component placement, routing, and design rule checking.
 
-You can browse and restore previous versions through KiCad's
-File > Local History menu.
+## Tools Used
+- KiCad
+- Schematic Editor
+- PCB Editor
+- KiCad 3D Viewer
 
-To disable this feature:
-  Preferences > Common > Project Backup > Enable automatic backups
+## Features
+- STM32 microcontroller-based PCB design
+- Two-layer PCB layout
+- Power supply design and decoupling capacitors
+- SWD programming and debugging header
+- Component placement and PCB routing
+- Design Rule Check (DRC)
 
-This directory can be safely deleted if you no longer need the
-history, but doing so will permanently remove all saved snapshots.
+## Project Files
+- `pcb.kicad_pro` – KiCad project settings
+- `pcb.kicad_sch` – Circuit schematic
+- `pcb.kicad_pcb` – PCB layout
+
+## Design Workflow
+1. Created the circuit schematic.
+2. Assigned component footprints.
+3. Designed the two-layer PCB layout.
+4. Routed electrical connections.
+5. Checked design rules and corrected errors.
+6. Reviewed the board in the 3D Viewer.
+
+## Author
+Monika B R
+Electronics and Communication Engineering
