@@ -1,4 +1,4 @@
-*
-!.gitignore
-!pcb.kicad_sch
-!pcb.kicad_pcb
+.history/
+*.kicad_prl
+
+*.lck
